@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "version": "1.14.0",
+    "libraryName": "command-centre",
+    "libraryId": "f68517c6-0547-4f82-a906-05ed707d1b12",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "CommandCentre",
+    "solutionShortDescription": "CommandCentre description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

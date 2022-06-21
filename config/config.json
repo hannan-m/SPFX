@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "navigation-menu-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/navigationMenu/NavigationMenuWebPart.js",
+          "manifest": "./src/webparts/navigationMenu/NavigationMenuWebPart.manifest.json"
+        }
+      ]
+    },
+    "modal-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/modal/ModalWebPart.js",
+          "manifest": "./src/webparts/modal/ModalWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "NavigationMenuWebPartStrings": "lib/webparts/navigationMenu/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "ModalWebPartStrings": "lib/webparts/modal/loc/{locale}.js"
+  }
+}
